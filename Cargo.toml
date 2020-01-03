@@ -1,0 +1,18 @@
+[package]
+name = "fake_tfs"
+version = "0.1.0"
+authors = ["Peter Allin <peter@peca.dk>"]
+edition = "2018"
+
+[lib]
+name = "fake_tfs"
+path = "src/lib.rs"
+
+[dependencies]
+rocket = "0.4"
+rocket_contrib = "0.4"
+serde = {version="1.0", features = ["derive"]}
+rand = "0.7"
+log = "0.4"
+reqwest = "0.9"
+url = "2.1"
